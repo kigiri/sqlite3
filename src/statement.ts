@@ -298,6 +298,7 @@ export class Statement {
         }
         break;
       }
+      case "undefined": { break; }
       case "object": {
         if (param === null) {
           // pass
